@@ -1,16 +1,7 @@
 # NGD-SLAM
 
-This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy [[Paper]](https://export.arxiv.org/abs/2405.07392).
+This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy.
 
-If you find this work to be useful in your research, please consider citing:
-```bibtex
-@article{zhang2024ngdslam,
-  title={{NGD-SLAM}: Towards Real-Time SLAM for Dynamic Environments without GPU},
-  author={Zhang, Yuhao},
-  journal={arXiv preprint arXiv:2405.07392},
-  year={2024}
-}
-```
 
 # 1. Prerequisites
 The system is tested on **Ubuntu 20.04** and **22.04**, and it should be easy to compile in other platforms. A powerful computer will provide more stable and accurate results.
@@ -57,4 +48,15 @@ chmod +x build.sh
 [TUM dataset](https://cvg.cit.tum.de/data/datasets/rgbd-dataset/download) includes sequences that are captured using an RGB-D camera in dynamic environments. Download the desired sequence and uncompress it. Below is an example command for the *freiburg3_walking_xyz* sequence:
 ```
 ./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM3.yaml ./path/to/TUM/rgbd_dataset_freiburg3_walking_xyz ./Examples/RGB-D/associations/fr3_walk_xyz.txt
+```
+
+# 4. Citation
+If you find this work to be useful in your research, please consider citing:
+```bibtex
+@article{zhang2024ngdslam,
+  title={{NGD-SLAM}: Towards Real-Time SLAM for Dynamic Environments without GPU},
+  author={Zhang, Yuhao},
+  journal={arXiv preprint arXiv:2405.07392},
+  year={2024}
+}
 ```
