@@ -1,6 +1,6 @@
 # NGD-SLAM
 
-This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy.
+This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy [[Demo](https://www.bilibili.com/video/BV1XKT5eaEsT/)] [[Paper](https://arxiv.org/abs/2405.07392)].
 
 
 # 1. Prerequisites
