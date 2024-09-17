@@ -1,6 +1,31 @@
-# NGD-SLAM
+<div align="center">
+  <h1>NGD-SLAM: Towards Real-Time Dynamic SLAM <br>without GPU</h2>
+  <strong>IROS 2025</strong>
+  <br>
+    <a href="https://yuhaozhang7.github.io" target="_blank">Yuhao Zhang</a><sup>1,2</sup>,
+    <a href="#" target="_blank">Mihai Bujanca</a><sup>3</sup>,
+    <a href="#" target="_blank">Mikel Luján</a><sup>1</sup>
+  <p>
+    <h45>
+      <sup>1</sup>University of Manchester &nbsp;&nbsp;
+      <sup>2</sup>University of Cambridge &nbsp;&nbsp;
+      <br>
+      <sup>3</sup>Qualcomm Technologies XR Labs &nbsp;&nbsp;
+    </h5>
+  </p>
 
-This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy [[Demo](https://www.bilibili.com/video/BV1XKT5eaEsT/)] [[Paper](https://arxiv.org/abs/2405.07392)].
+  [<img src="https://img.shields.io/badge/Video-Bilibili-pink" alt="Bilibili">](https://www.bilibili.com/video/BV1XKT5eaEsT/)
+  [<img src="https://img.shields.io/badge/arXiv-2405.07392-990000" alt="Arxiv">](https://arxiv.org/abs/2405.07392)
+
+</div>
+
+<p align="center">
+  <img src="assets/bonn_crowd_small.gif" alt="GIF 1" width="240">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/bonn_mov_small.gif" alt="GIF 2" width="240">
+</p>
+
+This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy.
 
 
 # 1. Prerequisites
@@ -54,8 +79,8 @@ chmod +x build.sh
 If you find this work to be useful in your research, please consider citing:
 ```bibtex
 @article{zhang2024ngdslam,
-  title={{NGD-SLAM}: Towards Real-Time SLAM for Dynamic Environments without GPU},
-  author={Zhang, Yuhao},
+  title={NGD-SLAM: Towards Real-Time Dynamic SLAM without GPU},
+  author={Zhang, Yuhao and Bujanca, Mihai and Luján, Mikel},
   journal={arXiv preprint arXiv:2405.07392},
   year={2024}
 }
