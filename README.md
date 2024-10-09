@@ -53,10 +53,13 @@ chmod +x build.sh
 # 4. Citation
 If you find this work to be useful in your research, please consider citing:
 ```bibtex
-@article{zhang2024ngdslam,
-  title={{NGD-SLAM}: Towards Real-Time Dynamic SLAM without GPU},
-  author={Zhang, Yuhao and Bujanca, Mihai and Luj{\'a}n, Mikel},
-  journal={arXiv preprint arXiv:2405.07392},
-  year={2024}
+@misc{zhang2024ngd,
+      title={{NGD-SLAM}: Towards Real-Time Dynamic SLAM without GPU}, 
+      author={Yuhao Zhang and Mihai Bujanca and Mikel Luján},
+      year={2024},
+      eprint={2405.07392},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2405.07392}, 
 }
 ```
