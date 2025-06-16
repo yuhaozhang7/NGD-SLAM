@@ -1,4 +1,24 @@
-# NGD-SLAM
+<div align="center">
+    <h1>NGD-SLAM: Towards Real-Time Dynamic SLAM without GPU</h2>
+    <strong>IROS 2025</strong>
+    <br>
+        <a href="https://yuhaozhang7.github.io" target="_blank">Yuhao Zhang</a><sup>1,2</sup>,
+        <a href="#" target="_blank">Mihai Bujanca</a><sup>3</sup>,
+        <a href="#" target="_blank">Mikel Luján</a><sup>1</sup>
+    <p>
+        <h45>
+            <sup>1</sup>University of Manchester &nbsp;&nbsp;
+            <sup>2</sup>University of Cambridge &nbsp;&nbsp;
+            <br>
+            <sup>3</sup>Qualcomm Technologies XR Labs &nbsp;&nbsp;
+        </h5>
+    </p>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 30px;">
+    <img src="assets/bonn_crowd_small.gif" alt="GIF 1" width="240">
+    <img src="assets/bonn_mov_small.gif" alt="GIF 2" width="240">
+</div>
 
 This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy [[Demo](https://www.bilibili.com/video/BV1XKT5eaEsT/)] [[Paper](https://arxiv.org/abs/2405.07392)].
 
