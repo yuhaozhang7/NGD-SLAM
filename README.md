@@ -14,8 +14,9 @@
     </h5>
   </p>
 
+  [<img src="https://img.shields.io/badge/Preprint-arXiv-990000" alt="Arxiv">](https://arxiv.org/abs/2405.07392)
+  [<img src="https://img.shields.io/badge/Paper-IEEE_Xplore-blue" alt="IEEE">](https://ieeexplore.ieee.org/abstract/document/11246202)
   [<img src="https://img.shields.io/badge/Video-Bilibili-pink" alt="Bilibili">](https://www.bilibili.com/video/BV1XKT5eaEsT/)
-  [<img src="https://img.shields.io/badge/arXiv-2405.07392-990000" alt="Arxiv">](https://arxiv.org/abs/2405.07392)
 
 </div>
 
