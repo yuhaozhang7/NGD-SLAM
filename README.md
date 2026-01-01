@@ -78,10 +78,13 @@ chmod +x build.sh
 # 4. Citation
 If you find this work to be useful in your research, please consider citing:
 ```bibtex
-@article{zhang2024ngdslam,
+@inproceedings{zhang2025ngdslam,
   title={NGD-SLAM: Towards Real-Time Dynamic SLAM without GPU},
   author={Zhang, Yuhao and Bujanca, Mihai and Luján, Mikel},
-  journal={arXiv preprint arXiv:2405.07392},
-  year={2024}
+  booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={3467--3473},
+  year={2025},
+  doi={10.1109/IROS60139.2025.11246202},
+  publisher={IEEE}
 }
 ```
