@@ -1,29 +1,24 @@
 <div align="center">
-  <h1>NGD-SLAM: Towards Real-Time Dynamic SLAM <br>without GPU</h2>
-  <strong>IROS 2025</strong>
-  <br>
+  <h1>NGD-SLAM: Towards Real-Time Dynamic SLAM<br>without GPU</h2>
+  <b>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025</b>
+  <p>
     <a href="https://yuhaozhang7.github.io" target="_blank">Yuhao Zhang</a><sup>1,2</sup>,
     <a href="#" target="_blank">Mihai Bujanca</a><sup>3</sup>,
-    <a href="#" target="_blank">Mikel Luján</a><sup>1</sup>
-  <p>
-    <h45>
-      <sup>1</sup>University of Manchester &nbsp;&nbsp;
-      <sup>2</sup>University of Cambridge &nbsp;&nbsp;
-      <br>
-      <sup>3</sup>Qualcomm Technologies XR Labs &nbsp;&nbsp;
-    </h5>
+    <a href="#" target="_blank">Mikel Luján</a><sup>1</sup><br>
+    <sup>1</sup>University of Manchester &nbsp;
+    <sup>2</sup>University of Cambridge &nbsp;
+    <sup>3</sup>Qualcomm XR Labs
   </p>
 
-  [<img src="https://img.shields.io/badge/Preprint-arXiv-990000" alt="Arxiv">](https://arxiv.org/abs/2405.07392)
-  [<img src="https://img.shields.io/badge/Paper-IEEE_Xplore-blue" alt="IEEE">](https://ieeexplore.ieee.org/abstract/document/11246202)
-  [<img src="https://img.shields.io/badge/Video-Bilibili-pink" alt="Bilibili">](https://www.bilibili.com/video/BV1XKT5eaEsT/)
-
+  [<img src="https://img.shields.io/badge/arXiv--b31b1b?style=social&logo=arxiv" alt="Arxiv">](https://arxiv.org/abs/2405.07392)
+  [<img src="https://img.shields.io/badge/IEEE%20Xplore--00629B?style=social&logo=ieee" alt="IEEE Xplore">](https://ieeexplore.ieee.org/abstract/document/11246202)
+  [<img src="https://img.shields.io/badge/Bilibili--red?style=social&logo=bilibili" alt="Bilibili">](https://www.bilibili.com/video/BV1XKT5eaEsT/)
 </div>
 
 <p align="center">
-  <img src="assets/bonn_crowd_small.gif" alt="GIF 1" width="240">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/bonn_mov_small.gif" alt="GIF 2" width="240">
+  <img src="assets/bonn_crowd_small.gif" alt="GIF 1" width="35%">
+  &nbsp;&nbsp;
+  <img src="assets/bonn_mov_small.gif" alt="GIF 2" width="35%">
 </p>
 
 This is a visual SLAM system designed for dynamic environments, based on the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework. It runs in real-time on a single laptop CPU without compromising tracking accuracy.
@@ -80,9 +75,9 @@ chmod +x build.sh
 If you find this work to be useful in your research, please consider citing:
 ```bibtex
 @inproceedings{zhang2025ngdslam,
-  title={NGD-SLAM: Towards Real-Time Dynamic SLAM without GPU},
+  title={{NGD-SLAM}: Towards Real-Time Dynamic SLAM without GPU},
   author={Zhang, Yuhao and Bujanca, Mihai and Luján, Mikel},
-  booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={3467--3473},
   year={2025},
   doi={10.1109/IROS60139.2025.11246202},
